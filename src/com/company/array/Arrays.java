@@ -1,25 +1,11 @@
-package com.company;
+package com.company.array;
 
 import java.util.ArrayList;
 
-public class SwitchAndArrays {
+public class Arrays {
     static String[] Characters = {"Hulk", "Wolverine", "Thor", "Groot"};
     static int[] randomNumbers = new int[4];
     static ArrayList<String> programmingLanguages = new ArrayList();
-
-    public static void searchForSuperHero(String superHero) {
-        switch(superHero) {
-            case "Hercules": System.out.println("Hercules was found");
-                break;
-
-            case "Achilles": System.out.println("Achilles was found");
-                break;
-
-            default:
-                System.out.println("Unfortunately, we could not find the superhero you were looking for");
-                break;
-        }
-    }
 
     public static void main(String[] args) {
         /* ADDING VALUES TO THE LIMITED ARRAY */
@@ -55,6 +41,5 @@ public class SwitchAndArrays {
         /* GET INDEX WITH VALUE */
         System.out.println(programmingLanguages.indexOf("Python"));
 
-        searchForSuperHero("Thor");
     }
 }
