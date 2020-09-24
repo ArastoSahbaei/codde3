@@ -41,5 +41,7 @@ public class Arrays {
         /* GET INDEX WITH VALUE */
         System.out.println(programmingLanguages.indexOf("Python"));
 
+        System.out.println(Characters[0+1]);
+
     }
 }
