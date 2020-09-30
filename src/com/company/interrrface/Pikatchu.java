@@ -19,6 +19,11 @@ public class Pikatchu implements PokemonInterface {
     }
 
     @Override
+    public int sizeOfPokemon(int height, int width) {
+        return 0;
+    }
+
+    @Override
     public int tryToEscape() {
         return 0;
     }
