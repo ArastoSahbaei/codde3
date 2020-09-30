@@ -1,4 +1,4 @@
-package ternaryoperator;
+package com.company.ternaryoperator;
 
 public class Ternary {
 

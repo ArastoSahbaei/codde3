@@ -1,4 +1,4 @@
-package setters;
+package com.company.setters;
 
 public class Character {
 
