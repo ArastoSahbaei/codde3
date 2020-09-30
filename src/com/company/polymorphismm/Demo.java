@@ -1,4 +1,4 @@
-package polymorphism;
+package com.company.polymorphismm;
 
 public class Demo
 {

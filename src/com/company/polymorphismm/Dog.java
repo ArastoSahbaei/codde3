@@ -1,4 +1,4 @@
-package polymorphism;
+package com.company.polymorphismm;
 
 class Dog extends Animal{
     public void makeNoise()

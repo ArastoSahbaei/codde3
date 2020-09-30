@@ -1,4 +1,4 @@
-package polymorphism;
+package com.company.polymorphismm;
 
 class Cat extends Animal{
     public void makeNoise() {
